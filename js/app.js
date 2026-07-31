@@ -14,7 +14,7 @@ function login() {
 
     if (username === ADMIN_USER && password === ADMIN_PASS) {
         localStorage.setItem("admin", "true");
-        window.location.href = "factures.html";
+        window.location.href = "index.html";
     } else {
         error.innerHTML = "❌ Nom d'utilisateur ou mot de passe incorrect.";
     }
